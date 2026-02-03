@@ -26,7 +26,10 @@ export function Contact() {
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-yellow-50 via-blue-50 to-purple-50">
       <div className="max-w-2xl mx-auto w-full">
-        <h2 className="mb-12 text-center text-3xl">Get In Touch</h2>
+        <h2 className="mb-12 text-3xl block w-fit mx-auto relative">
+          Get In Touch
+          <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-rose-300 via-amber-200 to-sky-300 rounded-full"></span>
+        </h2>
         <p className="text-center text-gray-600 mb-8">
           Have a project in mind or just want to chat? Feel free to reach out!
         </p>

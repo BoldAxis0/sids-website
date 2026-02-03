@@ -23,7 +23,11 @@ export function Skills() {
       className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-green-50 via-pink-50 to-blue-50"
     >
       <div className="max-w-4xl mx-auto w-full">
-        <h2 className="mb-12 text-center text-3xl">Skills</h2>
+        <h2 className="mb-12 text-3xl block w-fit mx-auto relative">
+          Skills
+          <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-emerald-300 via-cyan-300 to-indigo-300 rounded-full"></span>
+        </h2>
+
         <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, idx) => {
             const colors = [
