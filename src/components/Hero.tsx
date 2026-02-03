@@ -72,7 +72,7 @@ export function Hero() {
             href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            className="p-3 rounded-full bg-gray-100 hover:bg-amber-100 text-gray-600 hover:text-amber-600 transition-all hover:scale-110"
+            className="p-3 rounded-full bg-gray-100 hover:bg-emerald-100 text-gray-600 hover:text-emerald-600 transition-all hover:scale-110"
             aria-label="Resume"
           >
             <FileText className="w-5 h-5" />
