@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import { Send } from "lucide-react";
 
+import ReCAPTCHA from "react-google-recaptcha";
+
 export function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
+
+  const [recaptchaOK, setRecaptchaOK] = useState(false);
+
+  function onChangeRecaptcha() {
+    setRecaptchaOK(true);
+  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -36,7 +44,8 @@ export function Contact() {
           <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-rose-300 via-amber-200 to-sky-300 rounded-full"></span>
         </h2>
         <p className="text-center text-gray-600 mb-8">
-          Have a project in mind or just want to chat? Feel free to reach out!
+          Have an idea? Lets talk. Just fill this out, or email at the top of
+          the page
         </p>
         <form onSubmit={handleSubmit} className="space-y-6">
           <div>
@@ -84,9 +93,16 @@ export function Contact() {
               placeholder="Your message..."
             />
           </div>
+
+          <ReCAPTCHA
+            sitekey="6Lc4vGMsAAAAAJaUriGg4CZQLZ2Tmxe13m4m9R0z"
+            onChange={onChangeRecaptcha}
+          />
+
           <button
             type="submit"
             className="w-full bg-gradient-to-r from-purple-400 to-pink-400 text-white py-3 rounded-lg hover:from-purple-500 hover:to-pink-500 transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
+            disabled={!recaptchaOK}
           >
             Send Message
             <Send className="w-4 h-4" />
