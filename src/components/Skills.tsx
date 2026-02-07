@@ -5,15 +5,48 @@ export function Skills() {
   const skillCategories = [
     {
       title: "Frontend",
-      skills: ["React", "TypeScript", "Next.js", "Tailwind CSS", "HTML/CSS"],
+      skills: [
+        "React",
+        "JavaScript",
+        "React Native",
+        "Android",
+        "Kotlin",
+        "XML",
+      ],
     },
     {
       title: "Backend",
-      skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "REST APIs"],
+      skills: [
+        "Django",
+        "Python",
+        "PostgreSQL",
+        "Firebase",
+        "REST APIs",
+        "Heroku",
+        "Vercel",
+      ],
     },
     {
-      title: "Tools & Others",
-      skills: ["Git", "Docker", "AWS", "Figma", "Agile/Scrum"],
+      title: "AI & ML",
+      skills: [
+        "Pandas",
+        "Numpy",
+        "Matplotlib",
+        "Scikit-learn",
+        "Keras",
+        "Transformers",
+      ],
+    },
+    {
+      title: "Tools",
+      skills: [
+        "Git/Github",
+        "GenAI",
+        "Agile/Scrum",
+        "Unit Testing",
+        "UML",
+        "MVC",
+      ],
     },
   ];
 
@@ -28,18 +61,25 @@ export function Skills() {
           <span className="absolute -bottom-2 left-0 w-full h-1 bg-gradient-to-r from-emerald-300 via-cyan-300 to-indigo-300 rounded-full"></span>
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-4 gap-8">
           {skillCategories.map((category, idx) => {
             const colors = [
               "border-purple-300",
               "border-yellow-300",
               "border-green-300",
+              "border-pink-300",
             ];
-            const bgColors = ["bg-purple-50", "bg-yellow-50", "bg-green-50"];
+            const bgColors = [
+              "bg-purple-50",
+              "bg-yellow-50",
+              "bg-green-50",
+              "bg-pink-50",
+            ];
             const textColors = [
               "text-purple-600",
               "text-yellow-700",
               "text-green-600",
+              "text-pink-600",
             ];
             return (
               <SkillCategoryBox

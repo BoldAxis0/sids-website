@@ -4,23 +4,23 @@ import { ExternalLink, Github } from "lucide-react";
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "TennisLinked",
       description:
-        "A full-featured online shopping platform with payment integration, inventory management, and admin dashboard.",
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-      github: "https://github.com",
+        "A comprehensive tennis booking and social platform that allows users to find, book, and manage tennis partners and court reservations with ease. Features also include booking and managing tennis lessons, an admin panel to manage users, clubs, and bookings, and a social feed to connect with other tennis enthusiasts.",
+      tech: ["React Native", "Django (Python)", "PostgreSQL", "Heroku"],
+      github: "https://github.com/boldaxis0/",
       live: "https://example.com",
     },
     {
-      title: "Task Management App",
+      title: "Volunteer Hub",
       description:
         "Collaborative task management tool with real-time updates, team workspaces, and progress tracking.",
-      tech: ["Next.js", "TypeScript", "MongoDB", "Socket.io"],
-      github: "https://github.com",
+      tech: ["React.js", "Firebase", "", "Socket.io"],
+      github: "https://github.com/boldaxis0/volunteer-hub",
       live: "https://example.com",
     },
     {
-      title: "Weather Dashboard",
+      title: "Gains Connect",
       description:
         "Interactive weather application with location-based forecasts, historical data, and customizable widgets.",
       tech: ["React", "Tailwind CSS", "Weather API"],

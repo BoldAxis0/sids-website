@@ -28,8 +28,9 @@ export function Hero() {
         <h1 className="text-4xl mb-2">Siddharth Dandekar</h1>
 
         <p className="text-gray-500 text-base mb-4">Full-stack developer</p>
+        <p className="text-gray-500 text-base mb-1">Canada | India</p>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Crafting elegant solutions to complex problems. Passionate about{" "}
+          Thoughtful designs, meaningful solutions to complex problems. Passionate about{" "}
           <span className="relative inline-block">
             <span className="relative z-10">clean code</span>
             <span className="absolute bottom-1 left-0 w-full h-3 bg-green-200 -z-0 -rotate-1"></span>
@@ -44,7 +45,7 @@ export function Hero() {
 
         <div className="flex items-center justify-center gap-4 mb-12">
           <a
-            href="https://github.com"
+            href="https://github.com/BoldAxis0"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-gray-100 hover:bg-purple-100 text-gray-600 hover:text-purple-600 transition-all hover:scale-110"
@@ -53,7 +54,7 @@ export function Hero() {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/siddharth-dandekar"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-gray-100 hover:bg-blue-100 text-gray-600 hover:text-blue-600 transition-all hover:scale-110"
@@ -62,7 +63,7 @@ export function Hero() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="mailto:hello@example.com"
+            href="mailto:dandekarsiddharth@gmail.com"
             className="p-3 rounded-full bg-gray-100 hover:bg-pink-100 text-gray-600 hover:text-pink-600 transition-all hover:scale-110"
             aria-label="Email"
           >
