@@ -3,26 +3,20 @@ import React from "react";
 export function Experience() {
   const experiences = [
     {
-      role: "Senior Full-Stack Developer",
-      company: "Tech Company Inc.",
-      period: "2022 - Present",
+      role: "Software Developer",
+      company: "Enzene Biosciences Ltd",
+      period: "Sep 2025 - Nov 2025",
       description:
         "Lead development of customer-facing web applications. Mentor junior developers and establish coding standards.",
     },
     {
-      role: "Full-Stack Developer",
-      company: "Digital Solutions LLC",
-      period: "2020 - 2022",
+      role: "Product Owner",
+      company: "TennisLinked",
+      period: "Jan 2025 - Apr 2025",
       description:
         "Built and maintained multiple client projects. Collaborated with design teams to implement responsive interfaces.",
-    },
-    {
-      role: "Frontend Developer",
-      company: "Startup Ventures",
-      period: "2019 - 2020",
-      description:
-        "Developed user interfaces for web applications. Optimized performance and implemented modern design patterns.",
-    },
+    }
+    
   ];
 
   return (

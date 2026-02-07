@@ -13,17 +13,16 @@ export function Projects() {
     },
     {
       title: "Volunteer Hub",
-      description:
-        "Collaborative task management tool with real-time updates, team workspaces, and progress tracking.",
-      tech: ["React.js", "Firebase", "", "Socket.io"],
+      description: "A React app for volunteer shift scheduling and shelter management. ",
+      tech: ["React.js", "Firebase", "SQLite"],
       github: "https://github.com/boldaxis0/volunteer-hub",
       live: "https://example.com",
     },
     {
-      title: "Gains Connect",
+      title: "Quick Scanner",
       description:
-        "Interactive weather application with location-based forecasts, historical data, and customizable widgets.",
-      tech: ["React", "Tailwind CSS", "Weather API"],
+        "A conference registration and organisation app, including client-side dashboard, admin panel, and QR based event signup",
+      tech: ["Android", "Django", "PostgreSQL"],
       github: "https://github.com",
       live: "https://example.com",
     },
@@ -57,15 +56,7 @@ export function Projects() {
                   >
                     <Github className="w-5 h-5" />
                   </a>
-                  <a
-                    href={project.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-green-500 transition-colors"
-                    aria-label="Live Demo"
-                  >
-                    <ExternalLink className="w-5 h-5" />
-                  </a>
+                  
                 </div>
               </div>
               <p className="text-gray-600 mb-4">{project.description}</p>
