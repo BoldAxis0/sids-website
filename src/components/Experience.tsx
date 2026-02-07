@@ -7,16 +7,15 @@ export function Experience() {
       company: "Enzene Biosciences Ltd",
       period: "Sep 2025 - Nov 2025",
       description:
-        "Lead development of customer-facing web applications. Mentor junior developers and establish coding standards.",
+        "Built a proof-of-concept document digitization system that used OCR to extract 30,000+ tokens from scanned and handwritten records, structured the text for LLM-based querying, and validated outputs for accuracy and usability.",
     },
     {
-      role: "Product Owner",
-      company: "TennisLinked",
-      period: "Jan 2025 - Apr 2025",
+      role: "Team Member",
+      company: "Albertaloop - UAlberta's Hyperloop Team",
+      period: "Sep 2021 - Apr 2022",
       description:
-        "Built and maintained multiple client projects. Collaborated with design teams to implement responsive interfaces.",
-    }
-    
+        "Contributed to the software team in building a real-time dashboard for the hyperloop pod, including sensor data visualization and telemetry processing.",
+    },
   ];
 
   return (

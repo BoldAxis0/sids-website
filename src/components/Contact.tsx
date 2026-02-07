@@ -1,22 +1,24 @@
-import React, { useState } from 'react';
-import { Send } from 'lucide-react';
+import React, { useState } from "react";
+import { Send } from "lucide-react";
 
 export function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I will get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
+    console.log("Form submitted:", formData);
+    alert("Thank you for your message! I will get back to you soon.");
+    setFormData({ name: "", email: "", message: "" });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
@@ -24,7 +26,10 @@ export function Contact() {
   };
 
   return (
-    <section id="contact" className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-yellow-50 via-blue-50 to-purple-50">
+    <section
+      id="contact"
+      className="min-h-screen flex items-center justify-center px-6 py-20 bg-gradient-to-b from-yellow-50 via-blue-50 to-purple-50"
+    >
       <div className="max-w-2xl mx-auto w-full">
         <h2 className="mb-12 text-3xl block w-fit mx-auto relative">
           Get In Touch
