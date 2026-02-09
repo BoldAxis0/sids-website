@@ -7,7 +7,7 @@ export function Projects() {
       title: "TennisLinked",
       description:
         "A comprehensive tennis booking and social platform that allows users to find, book, and manage tennis partners and court reservations with ease. Features also include booking and managing tennis lessons, an admin panel to manage users, clubs, and bookings, and a social feed to connect with other tennis enthusiasts.",
-      tech: ["React Native", "Django (Python)", "PostgreSQL", "Heroku"],
+      tech: ["React Native", "Django", "PostgreSQL", "Heroku"],
       github: "https://github.com/boldaxis0/",
       live: "https://example.com",
     },

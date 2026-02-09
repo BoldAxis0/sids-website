@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Send } from "lucide-react";
 
-import ReCAPTCHA from "react-google-recaptcha";
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -10,11 +9,7 @@ export function Contact() {
     message: "",
   });
 
-  const [recaptchaOK, setRecaptchaOK] = useState(false);
 
-  function onChangeRecaptcha() {
-    setRecaptchaOK(true);
-  }
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -94,15 +89,10 @@ export function Contact() {
             />
           </div>
 
-          <ReCAPTCHA
-            sitekey="6Lc4vGMsAAAAAJaUriGg4CZQLZ2Tmxe13m4m9R0z"
-            onChange={onChangeRecaptcha}
-          />
-
+          
           <button
             type="submit"
             className="w-full bg-gradient-to-r from-purple-400 to-pink-400 text-white py-3 rounded-lg hover:from-purple-500 hover:to-pink-500 transition-all flex items-center justify-center gap-2 shadow-sm hover:shadow-md"
-            disabled={!recaptchaOK}
           >
             Send Message
             <Send className="w-4 h-4" />

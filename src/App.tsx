@@ -6,8 +6,9 @@ import { About } from './components/About';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Experience } from './components/Experience';
-import { Contact } from './components/Contact';
+// import { Contact } from './components/Contact';
 import { Navigation } from './components/Navigation';
+import { ContactForm } from './components/ContactForm';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -54,7 +55,8 @@ function App() {
         <Skills />
         <Projects />
         <Experience />
-        <Contact />
+        {/* <Contact /> */}
+        <ContactForm />
       </main>
       {/* Sliding icon at the bottom of the viewport, animated with Framer Motion */}
       <motion.div
