@@ -8,23 +8,27 @@ export function Projects() {
       description:
         "A comprehensive tennis booking and social platform that allows users to find, book, and manage tennis partners and court reservations with ease. Features also include booking and managing tennis lessons, an admin panel to manage users, clubs, and bookings, and a social feed to connect with other tennis enthusiasts.",
       tech: ["React Native", "Django", "PostgreSQL", "Heroku"],
-      github: "https://github.com/boldaxis0/",
-      live: "https://example.com",
+      github: null,
     },
     {
       title: "Volunteer Hub",
-      description: "A React app for volunteer shift scheduling and shelter management. ",
-      tech: ["React.js", "Firebase", "SQLite"],
+      description: "An administrative app built for animal shelters, with volunteer shift scheduling and other general shelter management. ",
+      tech: ["React.js", "Firebase", "Vercel"],
       github: "https://github.com/boldaxis0/volunteer-hub",
-      live: "https://example.com",
     },
     {
       title: "Quick Scanner",
       description:
         "A conference registration and organisation app, including client-side dashboard, admin panel, and QR based event signup",
-      tech: ["Android", "Django", "PostgreSQL"],
+      tech: ["Android", "Firebase", "NoSQL (Firestore)"],
       github: "https://github.com",
-      live: "https://example.com",
+    },
+    {
+      title: "Gains Connect",
+      description:
+        "A mock full fledged specialised social media app for fitness enthusiasts, with features like friend connections, a social feed, community, and interconnectivity with similar apps.",
+      tech: ["Vue.js", "Django", "PostgreSQL"],
+      github: "https://github.com",
     },
   ];
 
@@ -44,20 +48,19 @@ export function Projects() {
               key={idx}
               className="bg-white border border-gray-200 rounded-lg p-8 hover:border-purple-300 hover:shadow-md transition-all"
             >
-              <div className="flex items-start justify-between mb-4">
-                <h3>{project.title}</h3>
-                <div className="flex gap-3">
+              <div className="relative mb-4">
+                <h3 className="text-lg  leading-tight pr-8">{project.title}</h3>
+                {project.github && (
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-purple-500 transition-colors"
+                    className="text-gray-400 hover:text-purple-500 transition-colors absolute top-0 right-0"
                     aria-label="GitHub"
                   >
                     <Github className="w-5 h-5" />
                   </a>
-                  
-                </div>
+                )}
               </div>
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="flex flex-wrap gap-2">

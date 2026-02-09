@@ -68,7 +68,8 @@ export function Skills() {
               "border-yellow-300",
               "border-green-300",
               "border-pink-300",
-            ];
+            ] as const;
+            
             const bgColors = [
               "bg-purple-50",
               "bg-yellow-50",
