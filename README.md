@@ -1,9 +1,7 @@
 
-  # Minimalist Portfolio Website
+  This is the source code for my personal portfolio site. Built with React and Typescript
 
-  This is a code bundle for Minimalist Portfolio Website. The original project is available at https://www.figma.com/design/tKRrnn9GJWT2Yd8cnEslpD/Minimalist-Portfolio-Website.
-
-  ## Running the code
+  ## Execution
 
   Run `npm i` to install the dependencies.
 
