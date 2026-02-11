@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export function About() {
   return (
@@ -14,27 +14,31 @@ export function About() {
         <div className="space-y-6 text-gray-600 text-lg">
           <p>
             I'm a software developer with a passion for building beautiful,
-            functional web applications. I've been building applications for
-            several years, and I specialize in React, Django, and native Android
-            development.
+            functional web and mobile applications. I've several years of
+            experience creating real-world solutions, and I specialize in React,
+            Django, and native Android development.
           </p>
           <p>
             My approach combines technical expertise with a keen eye for design.
-            I believe that great software should not only work flawlessly but
-            also provide an exceptional user experience.
+            I believe that great software should be both pleasant to look at and
+            interact with, as well as provide a seamless user experience. I
+            think competent leadership combined with dedicated teams can
+            accomplish almost anything, and some of humanity's greatest
+            endeavours are a testament to this.
           </p>
           <p>
-            Over the years I have also dabbled in game development, data science
-            and exploration, neural networks, language models, and cryptography. I enjoy the
-            engineering bits of several aspects of computer science. I enjoy
+            I am curious by default, and I enjoy the engineering side of several
+            domains within computer science. Over the years I have dabbled in
+            game development, data science and exploration, neural networks,
+            language models, numerical methods, and cryptography. I like
             building things.
           </p>
 
           <p>
-            When I'm not coding, you can find me reading Sci-Fi, contributing to
-            cat shelters, producing electronic music, or cooking/baking
-            something delicious. I really like biology too, and am perpetually
-            fascinated by the miracle of life.
+            When I'm not coding, you can find me reading or watching Sci-Fi,
+            producing electronic music, working at a cat shelter or
+            cooking/baking something delicious. I'm a big fan of biology too,
+            and continue to be perpetually fascinated by the miracle of life.
           </p>
         </div>
       </div>

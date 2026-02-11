@@ -12,7 +12,8 @@ export function Projects() {
     },
     {
       title: "Volunteer Hub",
-      description: "An administrative app built for animal shelters, with volunteer shift scheduling and other general shelter management. ",
+      description:
+        "An administrative app built for animal shelters, with volunteer shift scheduling and other general shelter management. ",
       tech: ["React.js", "Firebase", "Vercel"],
       github: "https://github.com/boldaxis0/volunteer-hub",
     },
@@ -21,14 +22,21 @@ export function Projects() {
       description:
         "A conference registration and organisation app, including client-side dashboard, admin panel, and QR based event signup",
       tech: ["Android", "Firebase", "NoSQL (Firestore)"],
-      github: "https://github.com",
+      github: "https://github.com/BoldAxis0/Quick-Scanner",
     },
     {
       title: "Gains Connect",
       description:
-        "A mock full fledged specialised social media app for fitness enthusiasts, with features like friend connections, a social feed, community, and interconnectivity with similar apps.",
+        "A full fledged mock specialised social media app for fitness enthusiasts, with features like friend connections, a social feed, community, and interconnectivity with similar apps.",
       tech: ["Vue.js", "Django", "PostgreSQL"],
-      github: "https://github.com",
+      github: "https://github.com/BoldAxis0/uofa-cmput404.github.io",
+    },
+    {
+      title: "Mom's Recipes",
+      description:
+        "An archieval site for my mom's recipes, with features including picture upload, audio instructions, detailed notes, an intuititve UI, and a simple admin panel to add and manage recipes.",
+      tech: ["React", "Django", "Vercel", "Heroku", "Cloudinary"],
+      github: "https://github.com/boldaxis0/moms-recipes",
     },
   ];
 
