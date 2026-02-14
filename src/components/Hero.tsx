@@ -1,6 +1,9 @@
 import React from "react";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
+import profileImg from "../media/IMG_8408.JPG";
+import resume from "../media/CA - Siddharth Dandekar CV Resume 28 Jan '26.pdf";
+
 export function Hero() {
   return (
     <section
@@ -11,7 +14,7 @@ export function Hero() {
         {/* Profile image from media folder */}
         <div className="w-60 h-60 rounded-full overflow-hidden bg-gray-200 mb-8 flex items-center justify-center">
           <img
-            src="src/media/IMG_8408.JPG"
+            src={profileImg}
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -62,7 +65,7 @@ export function Hero() {
             <Mail className="w-5 h-5" />
           </a>
           <a
-            href="src/media/CA - Siddharth Dandekar CV Resume 28 Jan '26.pdf"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-gray-100 hover:bg-emerald-100 text-gray-600 hover:text-emerald-600 transition-all hover:scale-110"
