@@ -9,7 +9,7 @@ export function Hero() {
     >
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
         {/* Profile image from media folder */}
-        <div className="w-70 h-70 rounded-full overflow-hidden bg-gray-200 mb-8 flex items-center justify-center">
+        <div className="w-50 h-50 rounded-full overflow-hidden bg-gray-200 mb-8 flex items-center justify-center">
           <img
             src="src/media/IMG_8408.JPG"
             alt="Profile"
