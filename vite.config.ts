@@ -6,7 +6,7 @@
 
 
   export default defineConfig({
-    base: "/Sids-Website/",
+    base: "/sids-website/",
     plugins: [react(), tailwindcss()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
