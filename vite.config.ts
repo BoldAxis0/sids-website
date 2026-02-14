@@ -6,6 +6,7 @@
 
 
   export default defineConfig({
+    base: "/Portfolio-Website/",
     plugins: [react(), tailwindcss()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],

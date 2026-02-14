@@ -8,29 +8,21 @@ export function Hero() {
       className="min-h-screen flex items-center justify-center px-6 bg-gradient-to-b from-pink-50 via-blue-50 to-purple-50"
     >
       <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
-        {/* Placeholder profile image */}
-        <div className="w-28 h-28 rounded-full overflow-hidden bg-gray-200 mb-6 flex items-center justify-center">
-          <svg
-            width="64"
-            height="64"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#a3a3a3"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="w-16 h-16"
-          >
-            <circle cx="12" cy="8" r="4" />
-            <path d="M4 20c0-3.314 3.134-6 7-6s7 2.686 7 6" />
-          </svg>
+        {/* Profile image from media folder */}
+        <div className="w-70 h-70 rounded-full overflow-hidden bg-gray-200 mb-8 flex items-center justify-center">
+          <img
+            src="src/media/IMG_8408.JPG"
+            alt="Profile"
+            className="w-full h-full object-cover"
+          />
         </div>
         <h1 className="text-4xl mb-2">Siddharth Dandekar</h1>
 
         <p className="text-gray-500 text-base mb-4">Full-stack developer</p>
         <p className="text-gray-500 text-base mb-1">Canada | India</p>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Thoughtful designs, meaningful solutions to complex problems. Passionate about{" "}
+          Thoughtful designs, meaningful solutions to complex problems.
+          Passionate about{" "}
           <span className="relative inline-block">
             <span className="relative z-10">clean code</span>
             <span className="absolute bottom-1 left-0 w-full h-3 bg-green-200 -z-0 -rotate-1"></span>
@@ -70,7 +62,7 @@ export function Hero() {
             <Mail className="w-5 h-5" />
           </a>
           <a
-            href="/resume.pdf"
+            href="src/media/CA - Siddharth Dandekar CV Resume 28 Jan '26.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-gray-100 hover:bg-emerald-100 text-gray-600 hover:text-emerald-600 transition-all hover:scale-110"
@@ -78,7 +70,6 @@ export function Hero() {
           >
             <FileText className="w-5 h-5" />
           </a>
-          
         </div>
       </div>
     </section>

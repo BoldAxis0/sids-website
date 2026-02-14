@@ -29,7 +29,7 @@ export function Projects() {
       description:
         "A full fledged mock specialised social media app for fitness enthusiasts, with features like friend connections, a social feed, community, and interconnectivity with similar apps.",
       tech: ["Vue.js", "Django", "PostgreSQL"],
-      github: "https://github.com/BoldAxis0/uofa-cmput404.github.io",
+      github: "https://github.com/BoldAxis0/GainsConnect",
     },
     {
       title: "Mom's Recipes",
