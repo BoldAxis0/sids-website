@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   // Use a relative base so the generated HTML uses relative asset paths.
   // This avoids wrong absolute paths on GitHub Pages if the repo name or hosting path changes.
-  base: "./",
+  base: "/",
   plugins: [react(), tailwindcss()],
   resolve: {
     extensions: [".js", ".jsx", ".ts", ".tsx", ".json"],
