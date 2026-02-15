@@ -11,3 +11,13 @@ dist
 stats.html
 
 .eslintcache
+
+# macOS system files
+.DS_Store
+
+# Additional log files
+npm-debug.log
+yarn-error.log
+
+# Local config files
+*.local
