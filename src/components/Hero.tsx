@@ -2,7 +2,7 @@ import React from "react";
 import { Github, Linkedin, Mail, FileText } from "lucide-react";
 
 import profileImg from "../media/IMG_8408.JPG";
-import resume from "../media/CA - Siddharth Dandekar CV Resume 28 Jan '26.pdf";
+import resume from "../media/CA - Siddharth Dandekar CV Resume 15 Feb '26.pdf";
 
 export function Hero() {
   return (
