@@ -1,5 +1,5 @@
 
-  This is the source code for my personal portfolio site. Built with React and Typescript
+  This is the source code for my personal portfolio site. Built with React, Typescript, Vite, Gh-pages, and Google Analytics
 
   ## Execution
 
