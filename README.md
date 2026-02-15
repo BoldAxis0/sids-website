@@ -1,7 +1,7 @@
 
   This is the source code for my personal portfolio site. Built with React, Typescript, Vite, Gh-pages, and Google Analytics
 
-  ## Execution
+  ### Execution
 
   Run `npm i` to install the dependencies.
 
