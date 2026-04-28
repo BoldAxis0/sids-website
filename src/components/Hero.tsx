@@ -38,6 +38,7 @@ export function Hero() {
           .
         </p>
 
+{/* some change? */}
         <div className="flex items-center justify-center gap-4 mb-12">
           <a
             href="https://github.com/BoldAxis0"
