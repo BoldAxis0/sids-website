@@ -24,15 +24,15 @@ export function Hero() {
         <p className="text-gray-500 text-base mb-4">Full-stack developer</p>
         <p className="text-gray-500 text-base mb-1">Canada | India</p>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-          Thoughtful designs, meaningful solutions to complex problems.
-          Passionate about{" "}
+          Technology that{" "}
           <span className="relative inline-block">
-            <span className="relative z-10">clean code</span>
+            <span className="relative z-10">improves life</span>
             <span className="absolute bottom-1 left-0 w-full h-3 bg-green-200 -z-0 -rotate-1"></span>
-          </span>{" "}
-          and{" "}
+          </span>
+          .<br />
+          Solutions that solve{" "}
           <span className="relative inline-block">
-            <span className="relative z-10">user experience</span>
+            <span className="relative z-10">real problems</span>
             <span className="absolute bottom-1 left-0 w-full h-3 bg-yellow-200 -z-0 rotate-1"></span>
           </span>
           .
